@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mridul.overflowmenu.MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:orderInCategory="1"
+            android:id="@+id/Menu_Red"
+            app:showAsAction="never"
+            android:title="@string/MenuRed" />
+        <item
+            android:orderInCategory="2"
+            android:id="@+id/Menu_Yellow"
+            app:showAsAction="never"
+            android:title="@string/yellow" />
+        <item
+            android:orderInCategory="3"
+            android:id="@+id/Menu_Green"
+            app:showAsAction="never"
+            android:title="@string/green" />
+    </group>
+</menu>
