@@ -19,4 +19,4 @@ jobs:
 
       # Step 2: Run the 'ls' command
       - name: List files
-        run: ls -la
+        run: ls -lah
