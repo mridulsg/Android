@@ -1,9 +1,9 @@
 name: Run ls Command
 
 on:
-  push:
+  pull_request:
     branches:
-      - Child1
+      - child2
       
 jobs:
   run-ls:
