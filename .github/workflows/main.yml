@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - Child1
-      
+  pull_request:
+    branches:
+      - child2    
 jobs:
   run-ls:
     runs-on: ubuntu-latest
