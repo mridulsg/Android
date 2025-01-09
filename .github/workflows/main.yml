@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - Child1
-  pull_request:
-    branches:
-      - child2
       
 jobs:
   run-ls:
@@ -19,4 +16,4 @@ jobs:
 
       # Step 2: Run the 'ls' command
       - name: List files
-        run: ls -la
+        run: ls -lah
