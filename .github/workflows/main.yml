@@ -6,7 +6,7 @@ on:
       - Child1
   pull_request:
     branches:
-      - child2    
+      - master  
 jobs:
   run-ls:
     runs-on: ubuntu-latest
