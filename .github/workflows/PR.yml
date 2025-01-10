@@ -3,7 +3,7 @@ name: Run ls Command
 on:
   pull_request:
     branches:
-      - child2
+      - master
       
 jobs:
   run-ls:
