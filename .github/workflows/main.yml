@@ -2,8 +2,11 @@ name: Run ls Command
 
 on:
   push:
+    branches-ignore:
+      - master
+  pull_request:
     branches:
-      - Child1
+      - master
       
 jobs:
   run-ls:
