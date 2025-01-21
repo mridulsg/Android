@@ -6,7 +6,7 @@ on:
       - Child1
   pull_request:
     branches:
-      - master 
+      - master  
 jobs:
   run-ls:
     runs-on: ubuntu-latest
@@ -16,4 +16,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-
+      # Step 2: Run the 'ls' command
+      - name: List files
+        run: ls -lah
+      - name: Display PR Number
+        run: echo "The PR number is ${{ github.event.pull_request.number }}"
