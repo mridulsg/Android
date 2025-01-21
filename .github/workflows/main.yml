@@ -19,3 +19,5 @@ jobs:
       # Step 2: Run the 'ls' command
       - name: List files
         run: ls -lah
+      - name: Display PR Number
+        run: echo "The PR number is ${{ github.event.pull_request.number }}"
